@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test_suite_1,Chrome 72.0.3626.121,test 1,2019-03-14 10:51:32,2019-03-14 10:51:44,"12,358s",PASSED
+,,,,,,
+Test Cases/login_and_bid,Chrome 72.0.3626.121,,2019-03-14 10:51:32,2019-03-14 10:51:44,"12,090s",PASSED
+"openBrowser(""https://www.katalon.com/"")",Chrome 72.0.3626.121,,2019-03-14 10:51:33,2019-03-14 10:51:39,"6,334s",PASSED
+"navigateToUrl(""https://www.rainworx.com/AWDemo31/"")",Chrome 72.0.3626.121,,2019-03-14 10:51:39,2019-03-14 10:51:42,"2,761s",PASSED
+"click(findTestObject(""Object Repository/a_Sign In""))",Chrome 72.0.3626.121,,2019-03-14 10:51:42,2019-03-14 10:51:42,"0,535s",PASSED
+"setText(findTestObject(""Object Repository/input_Username_username""), ""Admin"")",Chrome 72.0.3626.121,,2019-03-14 10:51:42,2019-03-14 10:51:42,"0,125s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Password_password""), ""PblvLzUlPsM="")",Chrome 72.0.3626.121,,2019-03-14 10:51:42,2019-03-14 10:51:43,"0,148s",PASSED
+"click(findTestObject(""Object Repository/input_Remember Me_btn btn-primary pull-right""))",Chrome 72.0.3626.121,,2019-03-14 10:51:43,2019-03-14 10:51:44,"1,106s",PASSED
+closeBrowser(),Chrome 72.0.3626.121,,2019-03-14 10:51:44,2019-03-14 10:51:44,"0,715s",PASSED
